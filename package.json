@@ -1,0 +1,22 @@
+{
+  "name": "rectimage",
+  "version": "0.1.0",
+  "description": "image",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chentsulin/rectimage.git"
+  },
+  "keywords": [
+    "image"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chentsulin/rectimage/issues"
+  },
+  "homepage": "https://github.com/chentsulin/rectimage"
+}
