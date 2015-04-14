@@ -1,7 +1,8 @@
 {
   "name": "rectimage",
   "version": "0.1.0",
-  "description": "image",
+  "description": "Crop image to rectangle",
+  "license": "MIT",
   "main": "index.js",
   "scripts": {
     "test": "mocha"
@@ -10,13 +11,33 @@
     "type": "git",
     "url": "https://github.com/chentsulin/rectimage.git"
   },
-  "keywords": [
-    "image"
+  "author": {
+    "name": "C. T. Lin",
+    "email": "chentsulin@gmail.com",
+    "url": "https://github.com/chentsulin"
+  },
+  "engines": {
+    "node": ">= 0.10.0",
+    "iojs": ">= 1.0.0"
+  },
+  "files": [
+    "index.js"
   ],
-  "author": "",
-  "license": "MIT",
+  "scripts": {
+    "test": "mocha",
+    "test-travis": "node node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha --report lcovonly -- --reporter dot"
+  },
+  "keywords": [
+    "image",
+    "crop",
+    "rectangle",
+    "canvas"
+  ],
   "bugs": {
     "url": "https://github.com/chentsulin/rectimage/issues"
   },
-  "homepage": "https://github.com/chentsulin/rectimage"
+  "homepage": "https://github.com/chentsulin/rectimage",
+  "devDependencies": {
+    "mocha": "*"
+  }
 }
