@@ -3,6 +3,8 @@
 [![NPM version][npm-image]][npm-url]
 [![Build Status][travis-image]][travis-url]
 [![Test coverage][coveralls-image]][coveralls-url]
+[![Dependency Status][david_img]][david_site]
+
 
 > Crop image to rectangle
 
@@ -41,3 +43,5 @@ MIT © [C. T. Lin](https://github.com/chentsulin)
 [travis-url]: https://travis-ci.org/chentsulin/rectimage
 [coveralls-image]: https://img.shields.io/coveralls/chentsulin/rectimage.svg?style=flat-square
 [coveralls-url]: https://coveralls.io/r/chentsulin/rectimage
+[david_img]: https://img.shields.io/david/chentsulin/rectimage.svg
+[david_site]: https://david-dm.org/chentsulin/rectimage
