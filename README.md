@@ -2,6 +2,7 @@
 
 [![NPM version][npm-image]][npm-url]
 [![Build Status][travis-image]][travis-url]
+[![Quality][codeclimate-image]][codeclimate-url]
 [![Test coverage][coveralls-image]][coveralls-url]
 [![Dependency Status][david_img]][david_site]
 
@@ -41,6 +42,8 @@ MIT © [C. T. Lin](https://github.com/chentsulin)
 [npm-url]: https://npmjs.org/package/rectimage
 [travis-image]: https://travis-ci.org/chentsulin/rectimage.svg
 [travis-url]: https://travis-ci.org/chentsulin/rectimage
+[codeclimate-image]: https://img.shields.io/codeclimate/github/chentsulin/rectimage.svg?style=flat-square
+[codeclimate-url]: https://codeclimate.com/github/chentsulin/rectimage
 [coveralls-image]: https://img.shields.io/coveralls/chentsulin/rectimage.svg?style=flat-square
 [coveralls-url]: https://coveralls.io/r/chentsulin/rectimage
 [david_img]: https://img.shields.io/david/chentsulin/rectimage.svg
