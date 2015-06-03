@@ -3,6 +3,10 @@
 module.exports = function rectimage(image, opts) {
   opts = opts || {};
 
+  if (opts.newLength && typeof opts.newLength !== 'number') {
+    throw new TypeError('newLength expect a number');
+  }
+
   if (!image.complete) {
     return image.onload = rectimage.bind(null, image, opts);
   }
@@ -38,12 +42,12 @@ module.exports = function rectimage(image, opts) {
     yOffset = 0;
   }
 
-  canvas.width = minLength;
-  canvas.height = minLength;
+  canvas.width = opts.newLength || minLength;
+  canvas.height = opts.newLength || minLength;
 
   context.drawImage(image,
     xOffset, yOffset, minLength, minLength,
-    0, 0, minLength, minLength
+    0, 0, canvas.width, canvas.height
   );
 
   if (opts.canvas) {
