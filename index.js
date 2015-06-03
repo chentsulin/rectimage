@@ -38,12 +38,12 @@ module.exports = function rectimage(image, opts) {
     yOffset = 0;
   }
 
-  canvas.width = minLength;
-  canvas.height = minLength;
+  canvas.width = opts.newLength || minLength;
+  canvas.height = opts.newLength || minLength;
 
   context.drawImage(image,
     xOffset, yOffset, minLength, minLength,
-    0, 0, minLength, minLength
+    0, 0, canvas.width, canvas.height
   );
 
   if (opts.canvas) {
