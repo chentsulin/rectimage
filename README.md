@@ -35,6 +35,14 @@ var canvas = rectimage(image, { canvas: true })
 document.body.appendChild(canvas)
 ```
 
+## Customize Length
+
+```js
+var rectimage = require('rectimage')
+
+var newImage = rectimage(image, { newLength: 200 })
+```
+
 ## License
 MIT © [C. T. Lin](https://github.com/chentsulin)
 
